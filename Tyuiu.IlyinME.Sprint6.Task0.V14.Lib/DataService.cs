@@ -14,6 +14,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task0.V14.Lib
         {
             double res = (Math.Pow((1 - (double)x), 2)) / (-3 * (double)x);
             return Math.Round(res, 3);
+
         }
     }
 }
