@@ -15,6 +15,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task0.V14.Test
             double res = ds.Calculate(3);
             double wait = -0.444;
             Assert.AreEqual(wait, res);
+
         }
     }
 }
