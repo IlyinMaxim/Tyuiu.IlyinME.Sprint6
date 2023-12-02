@@ -17,7 +17,6 @@ namespace Tyuiu.IlyinME.Sprint6.Task0.V14
         public FormMain()
         {
             InitializeComponent();
-
         }
 
         private void buttonDone_IME_Click(object sender, EventArgs e)
