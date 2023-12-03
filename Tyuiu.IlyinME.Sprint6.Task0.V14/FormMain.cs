@@ -34,7 +34,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task0.V14
 
         private void buttonHelp_IME_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 0 выполнил студент группы АСОиУб-23-1 Ильин Максим Евгеньевич", "Сообщение", MessageBoxButtons.OK);
+            MessageBox.Show("Таск 0 выполнил студент группы АСОиУб-23-1 Ильин Максим Евгеньевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void textBoxVarX_IME_KeyPress(object sender, KeyPressEventArgs e)
