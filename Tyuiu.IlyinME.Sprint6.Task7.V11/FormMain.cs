@@ -17,6 +17,8 @@ namespace Tyuiu.IlyinME.Sprint6.Task7.V11
         public FormMain()
         {
             InitializeComponent();
+            openFileDialogTask_IME.Filter = "Значения, разделенные запятыми(*.csv)|*.csv|Всефайлы(*.*)|*.*";
+            saveFileDialogMatrix_IME.Filter = "Значения, разделенные запятыми(*.csv)|*.csv|Всефайлы(*.*)|*.*";
         }
         static string openFilePath;
         static int rows;
