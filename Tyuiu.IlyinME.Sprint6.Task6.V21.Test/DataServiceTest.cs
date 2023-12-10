@@ -25,8 +25,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task6.V21.Test
         {
             DataService ds = new DataService();
             string path = @"C:\DataSprint6\InPutFileTask6V21.txt";
-            string str = "nXkwQYzgZ tsCms LlckTwkpaAGTvLPc fthzqqL XcNHugFmbsRgVVfsgHNGuUC SeRTRfFeAxzn raCml PzLyVamXVcmNn dlezsxTS z KxFxadaTMeBz BRW pSuA tVMMaxdnYJoY EUAji hntD RTmxxVdu";
-            string res = ds.CollectTextFromFile(str, path);
+            string res = ds.CollectTextFromFile(path);
             string wait = "nXkwQYzgZ XcNHugFmbsRgVVfsgHNGuUC";
             Assert.AreEqual(wait, res);
         }

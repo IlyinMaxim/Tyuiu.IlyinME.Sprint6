@@ -11,7 +11,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task6.V21.Lib
 {
     public class DataService : ISprint6Task6V21
     {
-        public string CollectTextFromFile(string str, string path)
+        public string CollectTextFromFile(string path)
         {
             string resStr = "";
             using (StreamReader reader = new StreamReader(path))
@@ -44,6 +44,6 @@ namespace Tyuiu.IlyinME.Sprint6.Task6.V21.Lib
             }
             resStr = resStr.Trim();
             return resStr;
-        }
+        } 
     }
 }

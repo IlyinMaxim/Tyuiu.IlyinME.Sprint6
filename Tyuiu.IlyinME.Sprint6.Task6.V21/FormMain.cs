@@ -22,8 +22,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task6.V21
         DataService ds = new DataService();
         private void buttonDone_IME_Click(object sender, EventArgs e)
         {
-            string str = "g";
-            textBoxResult_IME.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBoxResult_IME.Text = ds.CollectTextFromFile(openFilePath);
         }
 
         private void buttonInfo_IME_Click(object sender, EventArgs e)
