@@ -183,6 +183,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task6.V21
             // buttonDone_IME
             // 
             this.buttonDone_IME.BackColor = System.Drawing.Color.Green;
+            this.buttonDone_IME.Enabled = false;
             this.buttonDone_IME.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonDone_IME.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_IME.Image")));
             this.buttonDone_IME.Location = new System.Drawing.Point(97, 4);
