@@ -77,6 +77,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task6.V21
             this.Controls.Add(this.buttonOK_IME);
             this.Controls.Add(this.labelInfo_IME);
             this.Controls.Add(this.pictureBoxAvatar_IME);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormAbout";
