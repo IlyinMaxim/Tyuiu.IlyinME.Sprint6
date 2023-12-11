@@ -127,7 +127,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task7.V11
                 {
                     if (j != columns - 1)
                     {
-                        str += dataGridViewOut_IME.Rows[i].Cells[j].Value + " ";
+                        str += dataGridViewOut_IME.Rows[i].Cells[j].Value + ";";
                     }
                     else
                     {
@@ -137,6 +137,16 @@ namespace Tyuiu.IlyinME.Sprint6.Task7.V11
             }
             File.AppendAllText(path, str + Environment.NewLine);
             str = "";
+        }
+        private void File_Load_IME(object sender, EventArgs e)
+        {
+            dataGridViewIn_IME.ColumnCount = 50;
+            dataGridViewOut_IME.ColumnCount = 50;
+
+            dataGridViewOut_IME.RowCount = 50;
+            dataGridViewIn_IME.RowCount = 50;
+            panelInput_IME.Width = this.Width / 2;
+            panelOut_IME.Width = this.Width / 2;
         }
 
         private void buttonInfo_IME_MouseEnter(object sender, EventArgs e)

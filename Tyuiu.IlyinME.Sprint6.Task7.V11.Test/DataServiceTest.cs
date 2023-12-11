@@ -11,7 +11,7 @@ namespace Tyuiu.IlyinME.Sprint6.Task7.V11.Test
         [TestMethod]
         public void ValidCheckedMatrix()
         {
-            string path = @"C:\Users\1\source\repos\Tyuiu.IlyinME.Sprint6\Tyuiu.IlyinME.Sprint6.Task7.V11\bin\Release\InPutFileTask7V11.csv";
+            string path = @"C:\Users\1\source\repos\Tyuiu.IlyinME.Sprint6\Tyuiu.IlyinME.Sprint6.Task7.V11\bin\Debug\InPutFileTask7V11.csv";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             Assert.AreEqual(true, fileExists);
